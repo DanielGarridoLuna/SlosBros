@@ -1,0 +1,16 @@
+.titulos:hover{
+    font-size: x-large;
+    
+}
+
+
+
+#btnkaido{
+    background-color: blueviolet;
+    color: white;
+}
+
+#btnuta{
+    background-color: palevioletred;
+    color: white;
+}
