@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tips</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icono.ico">  
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+</head>
+  <body class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="80" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active titulos text-white" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link titulos text-white" href="tips.html">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link titulos text-white" href="tops.html">Tops</a>
+              </li>
+            </ul>
+            
+            <div class="d-flex" role="search">
+              <input class="form-control mx-3"  type="search" id="palabra"  placeholder="Escribe el nombre " aria-label="Search">
+              <button class="btn btn-light" type="submit" id="btnbusqueda">Buscar</button>
+            </div>
+
+          </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+      <div class="d-flex flex-row">
+
+        <div class="col-3 d-flex flex-column">
+
+          <button type="button" class="btn btn-danger w-100 m-3" id="btnluffy">Luffy</button>
+          <button type="button" class="btn btn-light w-100 m-3" id="btnnika">Nika</button>
+          <button type="button" class="btn btn-success w-100 m-3" id="btnmerry">Merry</button>
+          <button type="button" class="btn w-100 m-3" id="btnuta">Uta</button>
+          <button type="button" class="btn  w-100 m-3" id="btnkaido">Kaido</button>
+          <button type="button" class="btn btn-warning w-100 m-3" id="btnlaw">Tragfal Law</button>
+        </div>
+
+        <div class="col-9 mx-3">
+          <div class="d-flex flex-row flex-wrap justify-content-evenly">
+
+            <div class="card m-3 Luffy Nika" style="width: 18rem;">
+              <img src="img/cropped-1920-1080-1325984.jpeg" class="card-img-top" alt="...">
+              <div class="card-body" align="center">
+                <h5 class="card-title">Luffy Nika</h5>
+              </div>
+            </div>
+
+            <div class="card m-3 Luffy Uta Nika" style="width: 18rem;">
+              <img src="img/cropped-1920-1080-1325987.jpeg" class="card-img-top" alt="...">
+              <div class="card-body" align="center">
+                <h5 class="card-title">Uta y Luffy </h5>
+              </div>
+            </div>
+
+            <div class="card m-3 Luffy Kaido Gear" style="width: 18rem;">
+              <img src="img/cropped-1920-1080-1325995.jpeg" class="card-img-top" alt="...">
+              <div class="card-body" align="center">
+                <h5 class="card-title">Kaido y Luffy </h5>
+              </div>
+            </div>
+
+            <div class="card m-3 Merry" style="width: 18rem;">
+              <img src="img/cropped-1920-1080-1329624.png" class="card-img-top" alt="...">
+              <div class="card-body" align="center">
+                <h5 class="card-title">Merry</h5>
+              </div>
+            </div>
+
+            <div class="card m-3 Law Heart" style="width: 18rem;">
+              <img src="img/cropped-1920-1080-589333.jpg" class="card-img-top" alt="...">
+              <div class="card-body" align="center">
+                <h5 class="card-title">Heart Pirates </h5>
+              </div>
+            </div>
+
+        </div>
+  
+  
+  
+        </div>
+
+      </div>
+      
+
+    </div>
+
+
+
+
+    <!-- Modal -->
+<div class="modal fade" id="Modalnika" >
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Información</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div id="carouselExample" class="carousel slide"  data-bs-ride="true">
+          <div class="carousel-inner container">
+            <div class="carousel-item active">
+              <img src="img/cropped-1920-1080-1325987.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/cropped-1920-1080-1325995.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/cropped-1920-1080-1325984.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/cropped-1920-1080-1329624.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/cropped-1920-1080-589333.jpg" class="d-block w-100" alt="...">
+            </div>
+    
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/filtro.js"></script>
+
+  </body>
+</html>
